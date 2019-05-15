@@ -1,0 +1,7 @@
+devtools::install_github("Emerson-Data-Science/EmersonDataScience",  
+                         auth_token = "7c54299b0c824b305a01dc1eeb9a6de41fe12b23",  
+                         INSTALL_opts = '--no-multiarch',  
+                         quick=TRUE,
+                         dependencies = TRUE,  
+                         quiet = FALSE,  
+                         upgrade = FALSE)
